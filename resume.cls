@@ -107,19 +107,24 @@
 \def \blog#1{\def\@blog{#1}}
 \def \@blog {}
 
+\def \linkedin#1{\def\@linkedin{#1}}
+\def \@linkedin {}
+
 \def \mobile#1{\def\@mobile{#1}}
 \def \@mobile {}
 
+\def \contactsep{\space\space\space}
+
+% Each entry is skipped when its field was never set, so an unused
+% field does not leave a stray icon behind.
 \def \printcontact{
 	\begingroup
 	\contactstyle
-	% \faMobile*\space\@mobile
-	% \space\space\space
+	% \faMobile*\space\@mobile\contactsep
 	\faEnvelope[regular]\space\@email
-	\space\space\space
-	\faGithub\space\@github
-	\space\space\space
-	\faLink\space\@blog
+	\ifx\@github\@empty\else\contactsep\faGithub\space\@github\fi
+	\ifx\@linkedin\@empty\else\contactsep\faLinkedin\space\@linkedin\fi
+	\ifx\@blog\@empty\else\contactsep\faLink\space\@blog\fi
 	\endgroup
 }
 
