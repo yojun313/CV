@@ -1,6 +1,6 @@
 # Yojun Moon (문요준)
 
-✉️ [yojun313@postech.ac.kr](mailto:yojun313@postech.ac.kr) &nbsp;&nbsp; 🔗 [github.com/yojun313](https://github.com/yojun313) &nbsp;&nbsp; 💼 [linkedin.com/in/yojun-moon](https://www.linkedin.com/in/yojun-moon/)
+✉️ [yojun313@postech.ac.kr](mailto:yojun313@postech.ac.kr) &nbsp;&nbsp; 🔗 [github.com/yojun313](https://github.com/yojun313) &nbsp;&nbsp; 💼 [linkedin.com/in/yojun-moon](https://www.linkedin.com/in/yojun-moon/) &nbsp;&nbsp; 🌐 [yojun313.github.io](https://yojun313.github.io/)
 
 ## Education
 
